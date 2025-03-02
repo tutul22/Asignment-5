@@ -2,21 +2,6 @@ document.getElementById("change-color")
 .addEventListener("click",function(){
     const color =['Red','Green','Blue'];
 })
-// document.getElementById("completed-1")
-// .addEventListener("click",function(event){
-//     const task = document.getElementById("task-count").innerText;
-//     const convertedtask = parseInt(task);
-//     const good = document.getElementById("good").innerText;
-//     const convertedgood = parseInt(good);
-//     let newTaskCount = convertedtask - 1;
-//     let newGoodCount = convertedgood + 1;
-//     document.getElementById("task-count").innerText = newTaskCount;
-//     document.getElementById("good").innerText = newGoodCount;
-//     alert('Board updated Successfully');
-// });
-
-
-
 
 function btn(Id) {
     const task = document.getElementById("task-count").innerText;
